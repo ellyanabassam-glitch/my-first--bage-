@@ -1,0 +1,66 @@
+<!doctype html>
+
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>صفحة رقم 1 — بدون إشارة صوت</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <div class="card" role="region" aria-label="بطاقة المحتوى">
+      <div>
+        <div class="head">
+          <div class="avatar">ص</div>
+          <div>
+            <h1>عنوان الصفحة أو المنتج</h1>
+            <p class="lead">نبذة قصيرة توضح ما تحتويه هذه الصفحة — مثال توضيحي بالعربية.</p>
+          </div>
+        </div><div class="details">
+      <div class="tag">تفصيل 1</div>
+      <div class="tag">تفصيل 2</div>
+      <div class="tag">تفصيل 3</div>
+    </div>
+
+    <div class="actions">
+      <button class="btn" id="primaryBtn">العمل الرئيسي</button>
+      <button class="ghost" id="secondaryBtn">إجراء ثانوي</button>
+    </div>
+
+    <div class="footer">
+      <p>معلومات إضافية: يمكنك تغيير النصوص والصور بسهولة داخل ملف الـ HTML.</p>
+    </div>
+  </div>
+
+  <aside class="panel" aria-label="لوحة جانبية">
+    <div class="thumb" role="img" aria-label="صورة توضيحية"></div>
+    <div class="meta">
+      <div>
+        <div class="price">س.ج 25.00</div>
+        <div class="small">التوصيل خلال 24 ساعة</div>
+      </div>
+      <div class="small">الكمية: 1</div>
+    </div>
+
+    <div style="margin-top:12px;display:flex;gap:8px;">
+      <button class="btn" id="buyBtn">اشتري الآن</button>
+      <button class="ghost" id="shareBtn">مشاركة</button>
+    </div>
+
+  </aside>
+</div>
+
+  </div>  <!-- Modal بسيط -->  <div class="modal" id="modal">
+    <div class="modal-card">
+      <h3 style="margin:0 0 8px">مشاركة الرابط</h3>
+      <div class="row">
+        <input id="pageLink" value="https://your-site.example/index.html" readonly>
+        <button class="copy" id="copyBtn">نسخ</button>
+      </div>
+      <div style="text-align:left;margin-top:12px">
+        <button class="btn" id="closeModal">تم</button>
+      </div>
+    </div>
+  </div>  <script src="script.js" defer></script></body>
+</html>
